@@ -3,3 +3,4 @@ src/Makevars
 src/Makevars.win
 .Rproj.user
 .Rproj.user/**/*
+*.Rproj
