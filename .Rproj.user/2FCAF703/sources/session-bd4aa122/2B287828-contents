@@ -1,0 +1,14 @@
+library(ape)
+
+tr <- read.tree("~/projects/phylogeny_sort_rs/input.tre")
+
+plot(tr[[1]])
+plot(tr[[2]])
+
+tr_sorted <- list()
+for (i in seq_along(tr)){
+  tr_sorted[[i]] <- phylogeny_sort(tr[[i]])
+}
+
+plot(tr_sorted[[1]])
+plot(tr_sorted[[2]])

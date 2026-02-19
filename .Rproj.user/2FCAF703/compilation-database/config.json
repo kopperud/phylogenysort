@@ -1,0 +1,22 @@
+{
+    "args": [
+        "-std=gnu2x",
+        "-I/Library/Frameworks/R.framework/Resources/include",
+        "-DNDEBUG",
+        "-I/opt/R/arm64/include",
+        "-fPIC",
+        "-falign-functions=64",
+        "-DEIGEN_DONT_VECTORIZE",
+        "-I/Library/Developer/CommandLineTools/usr/lib/clang/17.0.0/include",
+        "-I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1",
+        "-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include",
+        "-I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include",
+        "-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"
+    ],
+    "pch": "",
+    "is_cpp": false,
+    "hash": "17715063481771506358",
+    "compiler": "14344241414251475340",
+    "rversion": "4.5.1",
+    "dbversion": 4
+}

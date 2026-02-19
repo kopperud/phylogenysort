@@ -1,0 +1,21 @@
+[package]
+name = 'rphylogenysort'
+publish = false
+version = '0.1.0'
+edition = '2021'
+rust-version = '1.65'
+
+[lib]
+crate-type = [ 'staticlib' ]
+name = 'rphylogenysort'
+
+[dependencies]
+bytecount = "0.6.9"
+extendr-api = '0.8.1'
+once_cell = "1.21.3"
+regex = "1.12.3"
+string-join = "0.1.2"
+
+[profile.release]
+lto = true
+codegen-units = 1
